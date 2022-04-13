@@ -1,11 +1,11 @@
 import React from "react";
-
+import user from "../../images/userImage.png"
 function Header() {
   return (
     <header>
       <nav className="nav">
-        {/* <img src="../components/images/userImage.png" className="nav-logo" alt="Logo" /> */}
-        <img src="/images/userImage.png" width="40px" alt="Logo"  />
+        {/* <img src="../components" className="nav-logo" alt="Logo" /> */}
+        <img src={user} width="40px" alt="Logo"  />
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
