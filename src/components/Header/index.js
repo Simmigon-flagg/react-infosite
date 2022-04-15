@@ -1,5 +1,8 @@
 import React from "react";
 import user from "../../images/userImage.png"
+// react-infosite/ src/ components/Header/index.js
+// react-infosite/ src/ images/userImage.png
+//            ../  ../  images/userImage.png
 function Header() {
   return (
     <header>
