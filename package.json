@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "setup": "yarn install && npm run deploy && yarn start",
-    "update": "git push && npm run deploy && yarn start"
+    "update-website": "git push && npm run deploy && yarn start"
   },
   "eslintConfig": {
     "extends": [
